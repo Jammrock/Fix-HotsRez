@@ -1,3 +1,3 @@
 @echo off
-CD "C:\Users\jammrock\OneDrive\Documents\Scripts\HotS"
+CD "<path to script>"
 powershell -NoLogo -NoProfile -WindowStyle Hidden -File .\Fix-HotSRez.ps1
