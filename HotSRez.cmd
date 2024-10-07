@@ -1,4 +1,4 @@
 @echo off
 pwd="%~dp0"
 CD "%pwd%"
-powershell -NoLogo -NoProfile -WindowStyle Hidden -File .\Fix-HotSRez.ps1
+powershell -NoLogo -NoProfile -WindowStyle Hidden -ExecutionPolicy RemoteSigned -File .\Fix-HotSRez.ps1
